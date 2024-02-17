@@ -1,0 +1,54 @@
+/*
+Theme Name: GiftHeart FSE
+Theme URI: https://gracethemes.com/themes/free-gift-shop-wordpress-theme/
+Author: Grace Themes
+Author URI: https://gracethemes.com/
+Description: The GiftHeart FSE is beautifully designed free gift shop WordPress theme perfectly suitable for gift shops, handicraft shops, gift card stores, and other similar business websites. You can readily use this theme to make your website stand out of the crowd. This multipurpose theme is also suitable for tattoo salon, coaching, education, restaurant, artist, construction, travel, tour, hotel, flower shop, barber, barbershop, beard, beauty business, hair, health, corporate, business,  doctor, gym, fitness, modelling, sports and medical. The Giftheart FSE theme comes with an incredibly elegant yet attractive visual outlook that can perfectly fit in with gift shop websites. The homepage section of this theme is equally appealing. It consists of multiple sections for users to display all the information on their site with complete precision. This theme is highly responsive, so you will never have to wait forever to get a response from it. The GiftHeart FSE theme comes with a great HD retina-ready display quality and is a multi-resolution theme. It is SEO-integrated and will provide your site with commendable exposure and rank on the Google site engine. Demo: https://gracethemesdemo.com/giftheart/
+Version: 1.0
+License: GNU General Public License version 2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+Text Domain: giftheart-fse
+Requires PHP:  5.6
+Tested up to: 6.4
+Tags:blog, news, one-column, two-columns, right-sidebar, block-styles, custom-colors, editor-style, custom-background, custom-menu, featured-images, template-editing, full-site-editing, block-patterns,  threaded-comments, wide-blocks, translation-ready
+GiftHeart FSE WordPress Theme has been created by Grace Themes(gracethemes.com), 2023.
+GiftHeart FSE WordPress Theme is released under the terms of GNU GPL
+*/
+html, body { overflow-x: hidden; }
+.HeaderBanner{}
+ul.footer-post li{ margin-bottom:15px !important;}
+ul.footer-post li a.wp-block-latest-posts__post-title{ margin-bottom:5px !important; display:inline-block;}
+/*.wp-block-navigation ul{ padding:20px !important;}*/
+.wp-block-navigation .has-child .wp-block-navigation__submenu-container{ background-color:#282828; padding:5px !important}
+
+/* = Contact Form 7 CSS
+----------------------------------------------- */
+.wpcf7{ margin:30px 0 0;padding:0;}
+.wpcf7 input[type="text"], 
+.wpcf7 input[type="tel"], 
+.wpcf7 input[type="email"]{ width:40%;border:1px solid #cccccc;box-shadow:inset 1px 1px 2px #ccc;color:#797979;margin-bottom:0;height:40px;padding:0 15px;}	
+.wpcf7 textarea{color:#797979;margin-bottom:25px;border:1px solid #cccccc;box-shadow:inset 1px 1px 2px #ccc;padding:10px;width:60%;	height:160px;font-size:12px;}
+.wpcf7 input[type="submit"]{border-radius:40px;font-weight:600;font-size:16px;cursor:pointer;background-color:#60c19f;padding:20px 40px;color:#ffffff;width:auto;border:none;text-transform:uppercase;}
+.wpcf7 input[type="submit"]:hover{background-color:#101010;}
+
+/* = Section2 CSS
+----------------------------------------------- */
+
+.SF-Sidebar ul.latest-post li{ margin-bottom:25px !important; }
+.SF-Sidebar ul.latest-post li a.wp-block-latest-posts__post-title{ margin-bottom:10px !important; display:block;}
+
+.gift-3bx{box-shadow:0 0 25px #e8e8e8}
+.postlist-style1 ul li{ background-color:#f2f2f2; padding:30px; border-radius:10px; margin-bottom:40px;}
+
+
+
+/* = Footer CSS
+----------------------------------------------- */
+.footer-3-column{ position:relative;}
+.footer-3-column h3.wp-block-heading{ position:relative; }
+ul.fs-footer-post{ margin:0; padding:0;}
+ul.fs-footer-post li{ list-style:none; margin-bottom:30px;}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image{ margin-top:6px;}
+ul.fs-footer-post li .wp-block-latest-posts__featured-image img{ border-radius:10px;}
+ul.fs-footer-post li .wp-block-latest-posts__post-title{ margin-bottom:15px; display:block; line-height:22px;}
+ul.fs-footer-post li .wp-block-latest-posts__post-title:hover{ color:#8cc73e;}
